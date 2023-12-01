@@ -1,0 +1,39 @@
+*{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    font-size: 1.5rem;
+    
+    /* padding:0.5rem;
+    box-shadow: 0 1px 3px -2px black; */
+}
+.name{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    color:black;
+    /* margin-bottom: 1rem; */
+}
+.nav-cart{
+    display: flex;
+    padding-top: 1.5rem;
+    margin-right: 1rem;
+    width: 130px;
+    height: 40px;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    border-radius: 11px;
+    font-size: 12px;
+    background: red;
+    color: white;
+}
